@@ -22,10 +22,11 @@ export default function RootLayout({
           <nav className="max-w-4xl mx-auto px-4 py-4 flex justify-between items-center">
             <Link href="/" className="font-bold text-[#0f172a] text-lg">MK.</Link>
             <div className="flex gap-6 items-center">
-              <Link href="/case-study" className="text-slate-600 hover:text-[#0f172a] text-sm">Projects</Link>
-              <Link href="/health" className="text-slate-600 hover:text-[#0f172a] text-sm">Health-Check</Link>
-              <Link href="/contact" className="bg-[#0d9488] text-white px-4 py-2 rounded-md text-sm font-semibold hover:bg-teal-700 transition">Contact</Link>
-            </div>
+  <Link href="/case-study" className="text-slate-600 hover:text-[#0f172a] text-sm">Projects</Link>
+  <Link href="/chat" className="text-slate-600 hover:text-[#0f172a] text-sm font-semibold text-[#0d9488]">AI-Chat</Link>
+  <Link href="/health" className="text-slate-600 hover:text-[#0f172a] text-sm">Health-Check</Link>
+  <Link href="/contact" className="bg-[#0d9488] text-white px-4 py-2 rounded-md text-sm font-semibold hover:bg-teal-700 transition">Contact</Link>
+</div>
           </nav>
         </header>
         <main className="flex-1 max-w-4xl mx-auto w-full px-4 py-8">
